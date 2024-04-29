@@ -1,0 +1,60 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, rgb(102, 11, 43),rgb(146, 64, 146), rgb(87, 16, 55));
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: rgb(37, 2, 69);
+    color: #fff;
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.button:hover {
+    text-decoration: underline; 
+}
+#drinkBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#con_alcoholBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sin_alcoholBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cocteles {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
